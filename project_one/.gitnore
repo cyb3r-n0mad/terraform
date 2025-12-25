@@ -1,0 +1,21 @@
+#terrafrom
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+#variable files
+*.tfvars
+*.tfvars.json
+
+#cli config
+.terraformrc
+terraform.rc
+
+#os/ editor noise
+.DS_Store
+.vscode/
+.idea/
+
+#logs
+*.log
